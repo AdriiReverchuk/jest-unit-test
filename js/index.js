@@ -8,7 +8,7 @@ export class AddItemForm {
 		form.style.margin = "0 auto";
 		form.style.width = "20%";
 		const title = this.createElement("h2", "title", "Registration");
-		const emailContainer = this.createElement("div");
+		const emailContainer = this.createElement("div", "emailContainer");
 		const labelEmail = this.createElement("label", "", "Email");
 		labelEmail.setAttribute("for", "email");
 		const inpEmail = this.createElement("input", "email");
